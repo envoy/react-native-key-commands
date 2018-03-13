@@ -1,0 +1,23 @@
+{
+  "name": "@envoy/react-native-key-commands",
+  "version": "0.0.7",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": ["react-native"],
+  "license": "MIT",
+  "author": {
+    "name": "Fang-Pen Lin",
+    "email": "hello@fangpenlin.com",
+    "url": "https://fangpenlin.com"
+  },
+  "rnpm": {},
+  "devDependencies": {
+    "@types/node": "^8.0.26",
+    "@types/react": "^16.0.5",
+    "@types/react-native": "^0.47.8",
+    "tslint": "^5.7.0",
+    "tslint-config-standard": "^6.0.1",
+    "tslint-react": "^3.2.0",
+    "typescript": "^2.4.2"
+  }
+}
