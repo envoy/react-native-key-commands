@@ -1,5 +1,5 @@
 //
-//  RCTKeyCommandsManager.h
+//  RCTKeyCommandManager.h
 //  Envoy
 //
 //  Created by Fang-Pen Lin on 3/13/18.

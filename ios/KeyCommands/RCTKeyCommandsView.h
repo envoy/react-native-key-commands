@@ -1,5 +1,5 @@
 //
-//  RCTKeyCommandsView.h
+//  RCTKeyCommandView.h
 //  Envoy
 //
 //  Created by Fang-Pen Lin on 3/13/18.
@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <React/RCTComponent.h>
 
 @interface RCTKeyCommandsView : UIView
 
-@property (readwrite) NSArray<UIKeyCommand *> *currentKeyCommands;
+@property (nullable, copy) RCTBubblingEventBlock onKeyCommand;
+
+- (void) setKeyCommandsWithJSON:(id _Nullable)json;
 
 @end
