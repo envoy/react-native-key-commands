@@ -37,7 +37,7 @@ export default class MyComponent: React.Component {
         style={styles.myStyle}
         keyCommands={[
           input: "1",
-          keyModifiers: constants.keyModifierCommand,
+          keyModifier: constants.keyModifierCommand,
           discoverabilityTitle: "Do something cool"
         ]}
         onKeyCommand={this.onKeyCommand}>
@@ -55,3 +55,25 @@ export default class MyComponent: React.Component {
   }
 }
 ```
+
+## Constants
+
+Constants are exposed as `constatns` under the package. You can import it via
+
+```
+import { constants } from '@envoy/react-native-key-commands'
+```
+
+Here's the value mapping from `constants` to iOS constant values
+
+ - keyModifierShift: UIKeyModifierShift
+ - keyModifierControl: UIKeyModifierControl
+ - keyModifierAlternate: UIKeyModifierAlternate
+ - keyModifierCommand: UIKeyModifierCommand
+ - keyModifierNumericPad: UIKeyModifierNumericPad
+ - keyInputUpArrow: UIKeyInputUpArrow
+ - keyInputDownArrow: UIKeyInputDownArrow
+ - keyInputLeftArrow: UIKeyInputLeftArrow
+ - keyInputRightArrow: UIKeyInputRightArrow
+ - keyInputEscape: UIKeyInputEscape
+ 
