@@ -36,9 +36,11 @@ export default class MyComponent: React.Component {
       <KeyCommands
         style={styles.myStyle}
         keyCommands={[
-          input: "1",
-          keyModifier: constants.keyModifierCommand,
-          discoverabilityTitle: "Do something cool"
+          {
+            input: "1",
+            keyModifier: constants.keyModifierCommand,
+            discoverabilityTitle: "Do something cool"
+          }
         ]}
         onKeyCommand={this.onKeyCommand}>
         <View>
@@ -53,6 +55,16 @@ export default class MyComponent: React.Component {
       // do something here
     }
   }
+}
+```
+
+To combine key modifiers, you can use `|` (bit-wise OR) operator, for example, you can define a shortcut `CMD + ALT + C` like this
+
+```JSON
+{
+  input: "c",
+  keyModifier: constants.keyModifierCommand | constants.,keyModifierAlternate
+  discoverabilityTitle: "Do something cool"
 }
 ```
 
