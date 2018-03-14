@@ -1,5 +1,5 @@
 # react-native-key-commands
-iOS UIKeyCommand native component for React Native
+iOS [UIKeyCommand](https://developer.apple.com/documentation/uikit/uikeycommand) native component for React Native
 
 ## Install
 
