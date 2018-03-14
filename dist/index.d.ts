@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { ViewStyle } from 'react-native';
+import { NativeSyntheticEvent, ViewStyle } from 'react-native';
 import React from 'react';
 export declare const constants: {
     keyModifierShift: number;
@@ -21,6 +21,7 @@ export interface KeyCommand {
 export interface Props {
     style?: ViewStyle;
     keyCommands: Array<KeyCommand>;
+    onKeyCommand?: (event: NativeSyntheticEvent<KeyCommand>) => void;
     testID?: string;
 }
 export default class KeyCommands extends React.Component<Props> {
