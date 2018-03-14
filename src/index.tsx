@@ -1,5 +1,6 @@
 import {
   NativeModules,
+  NativeSyntheticEvent,
   StyleSheet,
   ViewStyle,
   requireNativeComponent
@@ -48,6 +49,8 @@ export interface Props {
   style?: ViewStyle
   /// Key commands
   keyCommands: Array<KeyCommand>
+  /// Callback function to be called when key command event emits
+  onKeyCommand?: (event: NativeSyntheticEvent<KeyCommand>) => void
   /// ID for UI automatic testing
   testID?: string
 }
