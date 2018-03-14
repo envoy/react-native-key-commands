@@ -60,7 +60,7 @@ export default class MyComponent: React.Component {
 
 To combine key modifiers, you can use `|` (bit-wise OR) operator, for example, you can define a shortcut `CMD + ALT + C` like this
 
-```JSON
+```js
 {
   input: "c",
   keyModifier: constants.keyModifierCommand | constants.,keyModifierAlternate
