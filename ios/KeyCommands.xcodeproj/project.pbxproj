@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		78B1A2FF2058822E00873224 /* RCTKeyCommandsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B1A2FD2058822E00873224 /* RCTKeyCommandsView.m */; };
 		78B1A3002058822E00873224 /* RCTKeyCommandsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B1A2FE2058822E00873224 /* RCTKeyCommandsManager.m */; };
+		78B1A3062059A7E000873224 /* RCTKeyCommandConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B1A3042059A7E000873224 /* RCTKeyCommandConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		78B1A2FC2058822D00873224 /* RCTKeyCommandsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTKeyCommandsView.h; sourceTree = "<group>"; };
 		78B1A2FD2058822E00873224 /* RCTKeyCommandsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTKeyCommandsView.m; sourceTree = "<group>"; };
 		78B1A2FE2058822E00873224 /* RCTKeyCommandsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTKeyCommandsManager.m; sourceTree = "<group>"; };
+		78B1A3042059A7E000873224 /* RCTKeyCommandConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTKeyCommandConstants.m; sourceTree = "<group>"; };
+		78B1A3052059A7E000873224 /* RCTKeyCommandConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTKeyCommandConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		D8C1B0701F5F430E00053884 /* KeyCommands */ = {
 			isa = PBXGroup;
 			children = (
+				78B1A3052059A7E000873224 /* RCTKeyCommandConstants.h */,
+				78B1A3042059A7E000873224 /* RCTKeyCommandConstants.m */,
 				78B1A2FB2058822D00873224 /* RCTKeyCommandsManager.h */,
 				78B1A2FE2058822E00873224 /* RCTKeyCommandsManager.m */,
 				78B1A2FC2058822D00873224 /* RCTKeyCommandsView.h */,
@@ -130,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78B1A3062059A7E000873224 /* RCTKeyCommandConstants.m in Sources */,
 				78B1A2FF2058822E00873224 /* RCTKeyCommandsView.m in Sources */,
 				78B1A3002058822E00873224 /* RCTKeyCommandsManager.m in Sources */,
 			);
