@@ -4,13 +4,13 @@ iOS [UIKeyCommand](https://developer.apple.com/documentation/uikit/uikeycommand)
 ## Install
 
 ```
-npm install react-native-key-commands
+npm install @envoy/react-native-key-commands
 ```
 
 or 
 
 ```
-yarn add react-native-key-commands
+yarn add @envoy/react-native-key-commands
 ```
 
 then
