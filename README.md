@@ -37,9 +37,16 @@ export default class MyComponent: React.Component {
         style={styles.myStyle}
         keyCommands={[
           {
+            input: keyCommandConstants.keyInputDownArrow,
+          },
+          {
             input: "1",
             keyModifier: constants.keyModifierCommand,
-            discoverabilityTitle: "Do something cool"
+            discoverabilityTitle: "Do something cool",
+          },
+          {
+            input: "c",
+            keyModifier: constants.keyModifierCommand
           }
         ]}
         onKeyCommand={this.onKeyCommand}>
