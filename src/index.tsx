@@ -9,7 +9,7 @@ import {
 import React from 'react'
 
 const { KeyCommandConstants } = NativeModules
-const RCTKeyCommands = requireNativeComponent('RCTRCTKeyCommands')
+const RCTKeyCommands = requireNativeComponent('RCTKeyCommands')
 const defaultStyles = StyleSheet.create({
   main: {
     backgroundColor: 'transparent'
