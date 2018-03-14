@@ -10,7 +10,7 @@ var __rest = (this && this.__rest) || function (s, e) {
 import { NativeModules, StyleSheet, requireNativeComponent } from 'react-native';
 import React from 'react';
 const { KeyCommandConstants } = NativeModules;
-const RCTKeyCommands = requireNativeComponent('RCTRCTKeyCommands');
+const RCTKeyCommands = requireNativeComponent('RCTKeyCommands');
 const defaultStyles = StyleSheet.create({
     main: {
         backgroundColor: 'transparent'
